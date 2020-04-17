@@ -17,7 +17,15 @@ quasar dev
 quasar dev -m electron
 ```
 
-###
+### Start the app on an Android Virtual Machine
+```bash
+quasar dev -m cordova -T android
+```
+
+### Start the app on a Virtual IOS device
+```bash
+quasar dev -m cordova -T ios
+```
 
 ### Build the app for production
 ```bash
